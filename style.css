@@ -196,3 +196,23 @@ body{
     transition: 0.2s ease;
     cursor: pointer;   
 }
+
+.catalog{
+    padding-top: 100px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    color: #828282;
+    padding: 15px 0 ;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-bottom a {
+    color: #828282;
+    text-decoration: none;
+}
