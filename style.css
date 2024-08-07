@@ -53,6 +53,12 @@ body{
     background-color: transparent;
     padding: 10px 15px;
     margin-left: 20px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.header-info button:hover {
+    background-color: green;
 }
 
 .header-button .navbar {
@@ -77,6 +83,12 @@ body{
     border: 2px solid white;
     background-color: transparent;
     padding: 10px 15px;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
 }
 .banner p{
     margin-bottom: 50px;
@@ -85,4 +97,7 @@ body{
 .title{
     font-size: 48px;
     font-weight: 700;
+}
+.bg-white{
+    background-color: #fff;
 }
